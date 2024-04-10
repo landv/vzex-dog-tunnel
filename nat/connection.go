@@ -1,17 +1,18 @@
 package nat
 
-import "github.com/vzex/dog-tunnel/ikcp"
-import "github.com/klauspost/reedsolomon"
-import "github.com/vzex/zappy"
-
 import (
 	"errors"
 	"flag"
 	"log"
-	//"math/rand"
 	"net"
 	"time"
+
+	"github.com/klauspost/reedsolomon"
+	"github.com/landv/vzex-dog-tunnel/ikcp"
+	"github.com/vzex/zappy"
 )
+
+//"math/rand"
 
 const (
 	Ping byte = 1

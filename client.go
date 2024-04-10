@@ -22,8 +22,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/vzex/dog-tunnel/common"
-	"github.com/vzex/dog-tunnel/nat"
+	"github.com/landv/vzex-dog-tunnel/common"
+	"github.com/landv/vzex-dog-tunnel/nat"
 )
 
 var accessKey = flag.String("key", "", "please get an accesskey")
@@ -1093,7 +1093,7 @@ func (sc *Client) Quit() {
 	}
 }
 
-///////////////////////multi pipe support
+// /////////////////////multi pipe support
 var g_LocalConn net.Conn
 
 func (sc *Client) MultiListen() bool {

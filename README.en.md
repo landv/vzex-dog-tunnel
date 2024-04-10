@@ -13,7 +13,7 @@ go get github.com/klauspost/reedsolomon
 go get github.com/cznic/zappy
 
 Compiler
-go get -u -d github.com/vzex/dog-tunnel && cd $GOPATH/src/github.com/vzex/dog-tunnel/ && git checkout master && make
+go get -u -d github.com/landv/vzex-dog-tunnel && cd $GOPATH/src/github.com/landv/vzex-dog-tunnel/ && git checkout master && make
 
 (Windows users modify the path by themselves)
 
@@ -52,15 +52,3 @@ There are multiple subcommands under usersetting (directly spelled above main ap
 &action=set&user=aaa&type=super&serven=10&sessionn=100&pipen=10&sameip=10, which restricts the function of aaa account. The type specified by the type has a default set of configurations, and can also specify servern (the maximum number of registered names), sessionn (The upper limit of the number of sessions that each registered server can connect to), pipen (up to several p2p pipes per session), and single ip (configured to the same number of ip configurable services)
 
 ```
-## Thanks
-
-[netroby] (https://github.com/netroby)
-
-## License
-
-[MIT License](LICENSE)
-
-## Credits
-![Welcome donate with Alipay && Welcome to Alipay for this project] (https://raw.githubusercontent.com/vzex/dog-tunnel/udpVersion/dog-tunnel.png)
-
-Author: vzex@163.com
